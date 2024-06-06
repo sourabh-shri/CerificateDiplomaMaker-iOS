@@ -31,7 +31,7 @@ class TranscriptTableViewController: UITableViewController,NSFetchedResultsContr
         navigationController?.navigationBar.setBackgroundImage(UIImage(named: "navbarBg.png"),                                                               for: .default)
         navigationItem.title = "My Transcript"
         
-        let backItem = UIBarButtonItem(image:UIImage(named: "nav_back.png"), landscapeImagePhone: UIImage(named: "nav_back.png"), style: .plain, target: self, action: #selector(CertificatesTableViewController.Cancel))
+        let backItem = UIBarButtonItem(image:UIImage(named: "nav_back.png"), landscapeImagePhone: UIImage(named: "nav_back.png"), style: .plain, target: self, action: #selector(TranscriptTableViewController.Cancel))
         navigationItem.leftBarButtonItem = backItem
         showDeleteBtn = false
         navDeleteBtn.tintColor = UIColor.white
@@ -98,7 +98,7 @@ class TranscriptTableViewController: UITableViewController,NSFetchedResultsContr
         self.tableView.reloadData()
     }
     
-    func Cancel(){
+    @objc func Cancel(){
         _ = navigationController?.popToRootViewController(animated: true)
     }
     
