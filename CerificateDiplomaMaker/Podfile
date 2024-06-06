@@ -1,0 +1,14 @@
+use_frameworks!
+
+def default_pods
+	pod 'Fabric'
+	pod 'Crashlytics'
+end
+
+target 'Diploma-FREE' do
+    default_pods
+end
+
+target 'Diploma-PRO' do
+    default_pods
+end

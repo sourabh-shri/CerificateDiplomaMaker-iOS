@@ -1,0 +1,948 @@
+{
+  "status": "1",
+  "message": "Templates Data",
+  "templates": [
+    {
+      "templateId": "1",
+      "name": "Diploma 1",
+      "organization":"Freepik 1",
+      "bgImageName": "cert1.png",
+      "bgImageUrl": "http://54.213.28.200/diploma/cert1.png",
+      "thumbImageName": "certThumb1.png",        
+      "thumbImageUrl": "http://54.213.28.200/diploma/certThumb1.png",        
+      "widthInPixels":798,
+      "heightInPixels":616,
+      "textFields":[
+        {
+          "name":"nameOfCandidate",
+          "x":261,
+          "y":245,
+          "widthInPixels":300,
+          "heightInPixels":38,
+          "fontFamily":"Blacksword",
+          "fontSize":20,
+          "fontFace":"",
+          "fontFileName":"Blacksword.otf",
+          "fontColorHex":"#7d4846",
+          "content":"",
+          "placeholder":"Enter a name"
+        },
+        {
+          "name":"course",
+          "x":237,
+          "y":359,
+          "widthInPixels":351,
+          "heightInPixels":34,
+          "fontFamily":"lato",
+          "fontSize":24,
+          "fontFace":"light",
+          "fontFileName":"Lato-Light.ttf",
+          "fontColorHex":"#7c4745",
+          "content":"",
+          "placeholder":"Enter a course"
+        },
+        {
+          "name":"date",
+          "x":113,
+          "y":450,
+          "widthInPixels":146,
+          "heightInPixels":23,
+          "fontFamily":"roboto",
+          "fontSize":24,
+          "fontFace":"medium",
+          "fontFileName":"Roboto-Medium.ttf",
+          "fontColorHex":"#7d4846",
+          "content":"",
+          "placeholder":"Enter a date"
+        }
+      ],
+      "imageFields" : [
+          {
+            "name":"logo",
+            "x":362,
+            "y":418,
+            "widthInPixels":75,
+            "heightInPixels":104,
+            "image":"logo1.png",
+            "Url": "http://54.213.28.200/diploma/logo1.png"
+          },
+          {
+            "name":"signature",
+            "x":539,
+            "y":444,
+            "widthInPixels":141,
+            "heightInPixels":36,
+            "image":"signature1.png",
+            "Url": "http://54.213.28.200/diploma/signature1.png"
+          }          
+      ]
+    },
+    {
+      "templateId": "2",
+      "name": "Diploma 2",
+      "organization":"Freepik 1",
+      "bgImageName": "cert2.png",
+      "bgImageUrl": "http://54.213.28.200/diploma/cert2.png",
+      "thumbImageUrl": "http://54.213.28.200/diploma/certThumb2.png",       
+      "thumbImageName": "certThumb2.png", 
+      "widthInPixels":798,
+      "heightInPixels":616,
+      "textFields":[
+        {
+          "name":"nameOfCandidate",
+          "x":252,
+          "y":249,
+          "widthInPixels":326,
+          "heightInPixels":38,
+          "fontFamily":"Black night",
+          "fontSize":33,
+          "fontFace":"",
+          "fontFileName":"BLACN___.TTF",
+          "fontColorHex":"#1c1c1c",
+          "content":"",
+          "placeholder":"Enter a name"
+        },
+        {
+          "name":"course",
+          "x":244,
+          "y":324,
+          "widthInPixels":334,
+          "heightInPixels":36,
+          "fontFamily":"lato",
+          "fontSize":24,
+          "fontFace":"Regular",
+          "fontFileName":"Lato-Regular.ttf",
+          "fontColorHex":"#1c1c1c",
+          "content":"",
+          "placeholder":"Enter a course"
+        },
+        {
+          "name":"date",
+          "x":275,
+          "y":429,
+          "widthInPixels":174,
+          "heightInPixels":23,
+          "fontFamily":"lato",
+          "fontSize":19,
+          "fontFace":"Regular",
+          "fontFileName":"Lato-Regular.ttf",  
+          "fontColorHex":"#1c1c1c",
+          "content":"",
+          "placeholder":"Enter a date"
+        },
+        {
+          "name":"college",
+          "x":275,
+          "y":456,
+          "widthInPixels":174,
+          "heightInPixels":20,
+          "fontFamily":"lato",
+          "fontSize":15,
+          "fontFace":"Regular",
+          "fontFileName":"Lato-Regular.ttf",  
+          "fontColorHex":"#1c1c1c",
+          "content":"",
+          "placeholder":"Enter college name"
+        }
+      ],
+      "imageFields" : [
+          {
+            "name":"logo",
+            "x":578,
+            "y":377,
+            "widthInPixels":104,
+            "heightInPixels":135,
+            "image":"logo2.png",
+            "Url": "http://54.213.28.200/diploma/logo2.png"
+
+          },
+          {
+            "name":"signature",
+            "x":131,
+            "y":360,
+            "widthInPixels":314,
+            "heightInPixels":53,
+            "image":"signature2.png",
+            "Url": "http://54.213.28.200/diploma/signature2.png"
+          }          
+      ]
+    },
+    {
+      "templateId": "3",
+      "name": "Diploma 3",
+      "organization":"Freepik 1",
+      "bgImageName": "cert3.png",
+      "bgImageUrl": "http://54.213.28.200/diploma/cert3.png",
+      "thumbImageName": "certThumb3.png", 
+      "thumbImageUrl": "http://54.213.28.200/diploma/certThumb3.png",        
+      "widthInPixels":2943,
+      "heightInPixels":2082,
+      "textFields":[
+        {
+          "name":"nameOfCandidate",
+          "x":789,
+          "y":884,
+          "widthInPixels":1357,
+          "heightInPixels":220,
+          "fontFamily":"Mr Dafce",
+          "fontSize":164,
+          "fontFace":"Regular",
+          "fontFileName":"MrDafoe-Regular.ttf",
+          "fontColorHex":"#c21c1b",
+          "content":"",
+          "placeholder":"Enter a name"
+        },
+        {
+          "name":"date",
+          "x":677,
+          "y":1575,
+          "widthInPixels":519,
+          "heightInPixels":92,
+          "fontFamily":"roboto",
+          "fontSize":60,
+          "fontFace":"light",
+          "fontFileName":"Roboto-Light.ttf",
+          "fontColorHex":"#6b0706",
+          "content":"",
+          "placeholder":"Enter a date"
+        }
+      ],
+      "imageFields" : [
+          {
+            "name":"logo",
+            "x":1313,
+            "y":1512,
+            "widthInPixels":336,
+            "heightInPixels":336,
+            "image":"logo3.png",
+            "Url": "http://54.213.28.200/diploma/logo3.png"
+          },
+          {
+            "name":"signature",
+            "x":1756,
+            "y":1535,
+            "widthInPixels":522,
+            "heightInPixels":132,
+            "image":"signature3.png",
+            "Url": "http://54.213.28.200/diploma/signature3.png"
+          }          
+      ],
+      "textViewFields" : [
+          {
+            "name":"description",
+            "x":825,
+            "y":1198,
+            "widthInPixels":1365,
+            "heightInPixels":267,
+            "fontFamily":"Blacksword",
+            "fontSize":40,
+            "fontFace":"",
+            "fontFileName":"Blacksword.otf",
+            "fontColorHex":"#7d4846",
+            "content":"",
+            "placeholder":"Enter a description"
+          }          
+      ]
+    },
+    {
+      "templateId": "4",
+      "name": "Diploma 4",
+      "organization":"Freepik 1",
+      "bgImageName": "cert4.png",
+      "bgImageUrl": "http://54.213.28.200/diploma/cert4.png",
+      "thumbImageName": "certThumb4.png", 
+      "thumbImageUrl": "http://54.213.28.200/diploma/certThumb4.png",        
+      "widthInPixels":2996,
+      "heightInPixels":2081,
+      "textFields":[
+        {
+          "name":"nameOfCandidate",
+          "x":846,
+          "y":961,
+          "widthInPixels":1296,
+          "heightInPixels":149,
+          "fontFamily":"Elephant",
+          "fontSize":112,
+          "fontFace":"Regular",
+          "fontFileName":"ELEPHNT.TTF",
+          "fontColorHex":"#683a11",
+          "content":"",
+          "placeholder":"Enter a name"
+        },
+        {
+          "name":"date",
+          "x":710,
+          "y":1497,
+          "widthInPixels":544,
+          "heightInPixels":95,
+          "fontFamily":"Helvetica CE 35 Thin",
+          "fontSize":67,
+          "fontFace":"",
+          "fontFileName":"Helvetica Neue CE 35 Thin.ttf",
+          "fontColorHex":"#683a11",
+          "content":"",
+          "placeholder":"Enter a date"
+        }
+      ],
+      "imageFields" : [
+          {
+            "name":"logo",
+            "x":1412,
+            "y":1450,
+            "widthInPixels":218,
+            "heightInPixels":273,
+            "image":"logo4.png",
+            "Url": "http://54.213.28.200/diploma/logo4.png"
+          },
+          {
+            "name":"signature",
+            "x":1748,
+            "y":1427,
+            "widthInPixels":526,
+            "heightInPixels":165,
+            "image":"signature4.png",
+            "Url": "http://54.213.28.200/diploma/signature4.png"
+          }          
+      ],
+      "textViewFields" : [
+          {
+            "name":"description",
+            "x":515,
+            "y":1187,
+            "widthInPixels":1927,
+            "heightInPixels":193,
+            "fontFamily":"Helvetica CE 35 Thin",
+            "fontSize":60,
+            "fontFace":"",
+            "fontFileName":"Helvetica Neue CE 35 Thin.ttf",
+            "fontColorHex":"#683a11",
+            "content":"",
+            "placeholder":"Enter a description"
+          }          
+      ]
+    },
+    {
+      "templateId": "5",
+      "name": "Diploma 5",
+      "organization":"Freepik 1",
+      "bgImageName": "cert5.png",
+      "bgImageUrl": "http://54.213.28.200/diploma/cert5.png",
+      "thumbImageName": "certThumb5.png", 
+      "thumbImageUrl": "http://54.213.28.200/diploma/certThumb5.png",        
+      "widthInPixels":639,
+      "heightInPixels":496,
+      "textFields":[
+        {
+          "name":"nameOfCandidate",
+          "x":120,
+          "y":229,
+          "widthInPixels":394,
+          "heightInPixels":53,
+          "fontFamily":"Monotype Corsiva",
+          "fontSize":48,
+          "fontFace":"Regular",
+          "fontFileName":"MTCORSVA.TTF",
+          "fontColorHex":"#17254f",
+          "content":"",
+          "placeholder":"Enter a name"
+        },
+        {
+          "name":"date",
+          "x":116,
+          "y":372,
+          "widthInPixels":119,
+          "heightInPixels":19,
+          "fontFamily":"Bitstream Vera Sans",
+          "fontSize":12,
+          "fontFace":"Roman",
+          "fontFileName":"Vera.ttf",
+          "fontColorHex":"#17254f",
+          "content":"",
+          "placeholder":"Enter a date"
+        }
+      ],
+      "imageFields" : [
+          {
+            "name":"logo",
+            "x":280,
+            "y":357,
+            "widthInPixels":67,
+            "heightInPixels":67,
+            "image":"logo5.png",
+            "Url": "http://54.213.28.200/diploma/logo5.png"
+          },
+          {
+            "name":"signature",
+            "x":401,
+            "y":357,
+            "widthInPixels":113,
+            "heightInPixels":34,
+            "image":"signature5.png",
+            "Url": "http://54.213.28.200/diploma/signature5.png"
+          }          
+      ],
+      "textViewFields" : [
+          {
+            "name":"description",
+            "x":132,
+            "y":286,
+            "widthInPixels":371,
+            "heightInPixels":47,
+            "fontFamily":"Bitstream Vera Sans",
+            "fontSize":10,
+            "fontFace":"Roman",
+            "fontFileName":"Vera.ttf",
+            "fontColorHex":"#17254f",
+            "content":"",
+            "placeholder":"Enter a description"
+          }          
+      ]
+    },
+    {
+      "templateId": "6",
+      "name": "Diploma 6",
+      "organization":"Freepik 1",
+      "bgImageName": "cert6.png",
+      "bgImageUrl": "http://54.213.28.200/diploma/cert6.png",
+      "thumbImageName": "certThumb6.png", 
+      "thumbImageUrl": "http://54.213.28.200/diploma/certThumb6.png",        
+      "widthInPixels":3000,
+      "heightInPixels":2250,
+      "textFields":[
+        {
+          "name":"nameOfCandidate",
+          "x":704,
+          "y":879,
+          "widthInPixels":1575,
+          "heightInPixels":182,
+          "fontFamily":"Franklin Gothic Medium",
+          "fontSize":129,
+          "fontFace":"Regular",
+          "fontFileName":"ufonts.com_franklin-gothic-medium.TTF",
+          "fontColorHex":"#000000",
+          "content":"",
+          "placeholder":"Enter a name"
+        }
+      ],
+      "imageFields" : [
+          {
+            "name":"logo",
+            "x":229,
+            "y":1493,
+            "widthInPixels":566,
+            "heightInPixels":566,
+            "image":"logo6.png",
+            "Url": "http://54.213.28.200/diploma/logo6.png"
+          },
+          {
+            "name":"signature",
+            "x":1891,
+            "y":1640,
+            "widthInPixels":845,
+            "heightInPixels":273,
+            "image":"signature6.png",
+            "Url": "http://54.213.28.200/diploma/signature6.png"
+          }          
+      ],
+      "textViewFields" : [
+          {
+            "name":"description",
+            "x":560,
+            "y":1097,
+            "widthInPixels":1892,
+            "heightInPixels":274,
+            "fontFamily":"Helvetica",
+            "fontSize":53,
+            "fontFace":"Medium",
+            "fontFileName":"Helvetica.otf",
+            "fontColorHex":"#000000",
+            "content":"",
+            "placeholder":"Enter a description"
+          }          
+      ]
+    },
+    {
+      "templateId": "7",
+      "name": "Diploma 7",
+      "organization":"Freepik 1",
+      "bgImageName": "cert7.png",
+      "bgImageUrl": "http://54.213.28.200/diploma/cert7.png",
+      "thumbImageName": "certThumb7.png", 
+      "thumbImageUrl": "http://54.213.28.200/diploma/certThumb7.png",        
+      "widthInPixels":3508,
+      "heightInPixels":2481,
+      "textFields":[
+        {
+          "name":"nameOfInstitute",
+          "x":920,
+          "y":291,
+          "widthInPixels":1608,
+          "heightInPixels":141,
+          "fontFamily":"Corbel",
+          "fontSize":130,
+          "fontFace":"Bold",
+          "fontFileName":"Corbel Bold.ttf",
+          "fontColorHex":"#da251d",
+          "content":"",
+          "placeholder":"Enter Institue name"
+        },
+        {
+          "name":"instituteEmail",
+          "x":1432,
+          "y":599,
+          "widthInPixels":660,
+          "heightInPixels":107,
+          "fontFamily":"Corbel",
+          "fontSize":63,
+          "fontFace":"Regular",
+          "fontFileName":"Corbel.ttf",
+          "fontColorHex":"#da251d",
+          "content":"",
+          "placeholder":"Enter institue name email address"
+        },
+        {
+          "name":"nameOfCandidate",
+          "x":1173,
+          "y":880,
+          "widthInPixels":1124,
+          "heightInPixels":129,
+          "fontFamily":"Monotype Corsiva",
+          "fontSize":87,
+          "fontFace":"Regular",
+          "fontFileName":"MTCORSVA.TTF",
+          "fontColorHex":"#514e4c",
+          "content":"",
+          "placeholder":"Enter a name"
+        },
+        {
+          "name":"position",
+          "x":2138,
+          "y":1105,
+          "widthInPixels":734,
+          "heightInPixels":115,
+          "fontFamily":"Monotype Corsiva",
+          "fontSize":104,
+          "fontFace":"Regular",
+          "fontFileName":"MTCORSVA.TTF",
+          "fontColorHex":"#514e4c",
+          "content":"",
+          "placeholder":"Enter position"
+        },
+        {
+          "name":"date",
+          "x":1613,
+          "y":1689,
+          "widthInPixels":423,
+          "heightInPixels":126,
+          "fontFamily":"Trebuchet MS",
+          "fontSize":72,
+          "fontFace":"Regular",
+          "fontFileName":"trebuc.ttf",
+          "fontColorHex":"#403b36",
+          "content":"",
+          "placeholder":"Enter a date"
+        }
+
+      ],
+      "imageFields" : [
+          {
+            "name":"logo",
+            "x":538,
+            "y":319,
+            "widthInPixels":334,
+            "heightInPixels":334,
+            "image":"logo7.png",
+            "Url": "http://54.213.28.200/diploma/logo7.png"
+          },
+          {
+            "name":"signature",
+            "x":639,
+            "y":1891,
+            "widthInPixels":272,
+            "heightInPixels":130,
+            "image":"signature7a.png",
+            "Url": "http://54.213.28.200/diploma/signature7a.png"
+          },
+          {
+            "name":"authorizedSignature",
+            "x":2447,
+            "y":1913,
+            "widthInPixels":315,
+            "heightInPixels":100,
+            "image":"signature7b.png",
+            "Url": "http://54.213.28.200/diploma/signature7b.png"
+          }
+      ],
+      "textViewFields" : [
+          {
+            "name":"description",
+            "x":554,
+            "y":1420,
+            "widthInPixels":2307,
+            "heightInPixels":269,
+            "fontFamily":"Monotype Corsiva",
+            "fontSize":98,
+            "fontFace":"Medium",
+            "fontFileName":"MTCORSVA.TTF",
+            "fontColorHex":"#514e4c",
+            "content":"",
+            "placeholder":"Enter a description"
+          },
+          {
+            "name":"addressOfInstitute",
+            "x":928,
+            "y":428,
+            "widthInPixels":1608,
+            "heightInPixels":180,
+            "fontFamily":"Corbel",
+            "fontSize":63,
+            "fontFace":"Regular",
+            "fontFileName":"Corbel.ttf",
+            "fontColorHex":"#da251d",
+            "content":"",
+            "placeholder":"Enter institute address"
+          }          
+      ]
+    },
+    {
+      "templateId": "8",
+      "name": "Diploma 8",
+      "organization":"Freepik 1",
+      "bgImageName": "cert8.png",
+      "bgImageUrl": "http://54.213.28.200/diploma/cert8.png",
+      "thumbImageName": "certThumb8.png", 
+      "thumbImageUrl": "http://54.213.28.200/diploma/certThumb8.png",        
+      "widthInPixels":2543,
+      "heightInPixels":1883,
+      "textFields":[
+        {
+          "name":"nameOfCandidate",
+          "x":683,
+          "y":647,
+          "widthInPixels":1181,
+          "heightInPixels":145,
+          "fontFamily":"Vladmir Script",
+          "fontSize":30,
+          "fontFace":"Regular",
+          "fontFileName":"VLADIMIR.TTF",
+          "fontColorHex":"#000000",
+          "content":"",
+          "placeholder":"Enter a name"
+        },
+        {
+          "name":"date",
+          "x":383,
+          "y":1227,
+          "widthInPixels":473,
+          "heightInPixels":109,
+          "fontFamily":"Shruti",
+          "fontSize":45,
+          "fontFace":"Regular",
+          "fontFileName":"shruti.ttf",
+          "fontColorHex":"#000000",
+          "content":"",
+          "placeholder":"Enter a date"
+        }
+      ],
+      "imageFields" : [
+          {
+            "name":"logo",
+            "x":1809,
+            "y":1103,
+            "widthInPixels":373,
+            "heightInPixels":329,
+            "image":"logo8.png",
+            "Url": "http://54.213.28.200/diploma/logo8.png"
+          },
+          {
+            "name":"signature",
+            "x":435,
+            "y":1372,
+            "widthInPixels":370,
+            "heightInPixels":155,
+            "image":"signature8.png",
+            "Url": "http://54.213.28.200/diploma/signature8.png"
+          }          
+        ],
+          "textViewFields" : [
+          {
+            "name":"description",
+            "x":411,
+            "y":915,
+            "widthInPixels":1737,
+            "heightInPixels":181,
+            "fontFamily":"Shruti",
+            "fontSize":58,
+            "fontFace":"Regular",
+            "fontFileName":"shruti.ttf",
+            "fontColorHex":"#000000",
+            "content":"",
+            "placeholder":"Enter a description"
+          }
+        ]
+    },
+    {
+      "templateId": "9",
+      "name": "Diploma 9",
+      "organization":"Freepik 1",
+      "bgImageName": "cert9.png",
+      "bgImageUrl": "http://54.213.28.200/diploma/cert9.png",
+      "thumbImageName": "certThumb9.png", 
+      "thumbImageUrl": "http://54.213.28.200/diploma/certThumb9.png",        
+      "widthInPixels":3506,
+      "heightInPixels":2480,
+      "textFields":[
+        {
+          "name":"nameOfCompany",
+          "x":1215,
+          "y":177,
+          "widthInPixels":1603,
+          "heightInPixels":128,
+          "fontFamily":"roboto",
+          "fontSize":76,
+          "fontFace":"light",
+          "fontFileName":"Roboto-Light.ttf",
+          "fontColorHex":"#000000",
+          "content":"",
+          "placeholder":"Enter Company name"
+        },
+        {
+          "name":"nameOfCandidate",
+          "x":627,
+          "y":912,
+          "widthInPixels":2188,
+          "heightInPixels":276,
+          "fontFamily":"ZagolovochnayaW01-Book",
+          "fontSize":200,
+          "fontFace":"Regular",
+          "fontFileName":"Zagolovochnaya W01 Book.ttf",
+          "fontColorHex":"#000000",
+          "content":"",
+          "placeholder":"Enter a name"
+        },
+        {
+          "name":"nameOfDirector",
+          "x":307,
+          "y":1921,
+          "widthInPixels":504,
+          "heightInPixels":119,
+          "fontFamily":"roboto",
+          "fontSize":68,
+          "fontFace":"light",
+          "fontFileName":"Roboto-Light.ttf",
+          "fontColorHex":"#000000",
+          "content":"",
+          "placeholder":"Enter Director's name"
+        },
+        {
+          "name":"nameOfPresident",
+          "x":2452,
+          "y":1921,
+          "widthInPixels":504,
+          "heightInPixels":119,
+          "fontFamily":"roboto",
+          "fontSize":68,
+          "fontFace":"light",
+          "fontFileName":"Roboto-Light.ttf",
+          "fontColorHex":"#000000",
+          "content":"",
+          "placeholder":"Enter President's name"
+        },
+        {
+          "name":"date",
+          "x":1394,
+          "y":2112,
+          "widthInPixels":592,
+          "heightInPixels":140,
+          "fontFamily":"roboto",
+          "fontSize":89,
+          "fontFace":"light",
+          "fontFileName":"Roboto-Light.ttf",
+          "fontColorHex":"#000000",
+          "content":"",
+          "placeholder":"Enter a date"
+        }
+
+      ],
+      "imageFields" : [
+          {
+            "name":"logo",
+            "x":1497,
+            "y":1716,
+            "widthInPixels":386,
+            "heightInPixels":386,
+            "image":"logo9.png",
+            "Url": "http://54.213.28.200/diploma/logo9.png"
+          },
+          {
+            "name":"signature1",
+            "x":333,
+            "y":1712,
+            "widthInPixels":481,
+            "heightInPixels":140,
+            "image":"signature9a.png",
+            "Url": "http://54.213.28.200/diploma/signature9a.png"
+          },
+          {
+            "name":"signature2",
+            "x":2491,
+            "y":1724,
+            "widthInPixels":475,
+            "heightInPixels":129,
+            "image":"signature9b.png",
+            "Url": "http://54.213.28.200/diploma/signature9b.png"
+          }
+      ],
+      "textViewFields" : [
+          {
+            "name":"description1",
+            "x":487,
+            "y":714,
+            "widthInPixels":2484,
+            "heightInPixels":231,
+            "fontFamily":"roboto",
+            "fontSize":72,
+            "fontFace":"light",
+            "fontFileName":"Roboto-Light.ttf",
+            "fontColorHex":"#000000",
+            "content":"",
+            "placeholder":"Enter 1st description"
+          },
+          {
+            "name":"description2",
+            "x":719,
+            "y":1324,
+            "widthInPixels":2024,
+            "heightInPixels":336,
+            "fontFamily":"roboto",
+            "fontSize":76,
+            "fontFace":"light",
+            "fontFileName":"Roboto-Light.ttf",
+            "fontColorHex":"#000000",
+            "content":"",
+            "placeholder":"Enter 2nd description"
+          }          
+      ]
+    },
+    {
+      "templateId": "10",
+      "name": "Diploma 10",
+      "organization":"Freepik 1",
+      "bgImageName": "cert10.png",
+      "bgImageUrl": "http://54.213.28.200/diploma/cert10.png",
+      "thumbImageName": "certThumb10.png", 
+      "thumbImageUrl": "http://54.213.28.200/diploma/certThumb10.png",        
+      "widthInPixels":1593,
+      "heightInPixels":1227,
+      "textFields":[
+        {
+          "name":"nameOfCandidate",
+          "x":390,
+          "y":432,
+          "widthInPixels":820,
+          "heightInPixels":92,
+          "fontFamily":"Diploma",
+          "fontSize":74,
+          "fontFace":"Regular",
+          "fontFileName":"diploma.ttf",
+          "fontColorHex":"#353532",
+          "content":"",
+          "placeholder":"Enter a name"
+        },
+        {
+          "name":"certificateNumber",
+          "x":892,
+          "y":810,
+          "widthInPixels":163,
+          "heightInPixels":46,
+          "fontFamily":"roboto",
+          "fontSize":36,
+          "fontFace":"medium",
+          "fontFileName":"Roboto-Medium.ttf",
+          "fontColorHex":"#353532",
+          "content":"",
+          "placeholder":"Enter President's name"
+        },
+        {
+          "name":"date",
+          "x":174,
+          "y":961,
+          "widthInPixels":265,
+          "heightInPixels":51,
+          "fontFamily":"roboto",
+          "fontSize":36,
+          "fontFace":"light",
+          "fontFileName":"Roboto-Light.ttf",
+          "fontColorHex":"#353532",
+          "content":"",
+          "placeholder":"Enter a date"
+        }
+
+      ],
+      "imageFields" : [
+          {
+            "name":"logo",
+            "x":220,
+            "y":729,
+            "widthInPixels":208,
+            "heightInPixels":215,
+            "image":"logo10.png",
+            "Url": "http://54.213.28.200/diploma/logo10.png"
+          },
+          {
+            "name":"signature",
+            "x":1055,
+            "y":907,
+            "widthInPixels":268,
+            "heightInPixels":102,
+            "image":"signature10.png",
+            "Url": "http://54.213.28.200/diploma/signature10.png"
+          }
+      ],
+      "textViewFields" : [
+          {
+            "name":"nameOfCollege",
+            "x":273,
+            "y":157,
+            "widthInPixels":1039,
+            "heightInPixels":167,
+            "fontFamily":"roboto",
+            "fontSize":60,
+            "fontFace":"light",
+            "fontFileName":"Roboto-Light.ttf",
+            "fontColorHex":"#353532",
+            "content":"",
+            "placeholder":"Enter College Name"
+          },
+          {
+            "name":"description1",
+            "x":273,
+            "y":353,
+            "widthInPixels":1049,
+            "heightInPixels":63,
+            "fontFamily":"roboto",
+            "fontSize":36,
+            "fontFace":"medium",
+            "fontFileName":"Roboto-Medium.ttf",
+            "fontColorHex":"#353532",
+            "content":"",
+            "placeholder":"Enter 1st description"
+          },
+          {
+            "name":"description2",
+            "x":413,
+            "y":609,
+            "widthInPixels":773,
+            "heightInPixels":139,
+            "fontFamily":"roboto",
+            "fontSize":37,
+            "fontFace":"light",
+            "fontFileName":"Roboto-Light.ttf",
+            "fontColorHex":"#353532",
+            "content":"",
+            "placeholder":"Enter 2nd description"
+          }          
+      ]
+    }
+  ]
+}

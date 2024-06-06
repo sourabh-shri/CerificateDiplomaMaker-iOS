@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "fb77939d-6ff6-477f-81d5-d1bd30d002c6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "fb77939d-6ff6-477f-81d5-d1bd30d002c6" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "fb77939d-6ff6-477f-81d5-d1bd30d002c6" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C4BC71AF-CF34-49EC-94A3-D5A026A0D647",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "fb77939d-6ff6-477f-81d5-d1bd30d002c6" : "DiplomaIOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CerificatesTemplates",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CerificatesTemplates\/CerificatesTemplates.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/113.19.87.130\/DiplomaIOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "fb77939d-6ff6-477f-81d5-d1bd30d002c6"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DBCertificate" representedClassName=".DBCertificate" syncable="YES">
+        <attribute name="certificateTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateCreated" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageFilename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageThumbFilename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="organization" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="templateBgImageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="templateHeightInPixels" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="templateId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="templateName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="templateWidthInPixels" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="imageFields" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DBImageField" inverseName="certificate" inverseEntity="DBImageField" syncable="YES"/>
+        <relationship name="textFields" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DBTextField" inverseName="certificate" inverseEntity="DBTextField" syncable="YES"/>
+        <relationship name="textViews" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DBTextView" inverseName="certificate" inverseEntity="DBTextView" syncable="YES"/>
+    </entity>
+    <entity name="DBImageField" representedClassName=".DBImageField" syncable="YES">
+        <attribute name="heightInPixels" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="templateName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="widthInPixels" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="x" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="certificate" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DBCertificate" inverseName="imageFields" inverseEntity="DBCertificate" syncable="YES"/>
+        <relationship name="transcript" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DBTranscript" inverseName="imageFieldsTrans" inverseEntity="DBTranscript" syncable="YES"/>
+    </entity>
+    <entity name="DBTextField" representedClassName=".DBTextField" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontColorHex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontFace" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontFamily" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontSize" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="heightInPixels" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="placeholder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="templateName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="widthInPixels" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="x" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="certificate" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DBCertificate" inverseName="textFields" inverseEntity="DBCertificate" syncable="YES"/>
+        <relationship name="transcript" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DBTranscript" inverseName="textFieldsTrans" inverseEntity="DBTranscript" syncable="YES"/>
+    </entity>
+    <entity name="DBTextView" representedClassName=".DBTextView" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontColorHex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontFace" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontFamily" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fontSize" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="heightInPixels" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="placeholder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="templateName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="widthInPixels" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="x" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="certificate" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DBCertificate" inverseName="textViews" inverseEntity="DBCertificate" syncable="YES"/>
+        <relationship name="transcript" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DBTranscript" inverseName="textViewsTrans" inverseEntity="DBTranscript" syncable="YES"/>
+    </entity>
+    <entity name="DBTranscript" representedClassName=".DBTranscript" syncable="YES">
+        <attribute name="dateCreated" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageFilename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageThumbFilename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="organization" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transcriptBgImageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transcriptHeightInPixels" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="transcriptId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transcriptName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transcriptTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transcriptWidthInPixels" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="imageFieldsTrans" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DBImageField" inverseName="transcript" inverseEntity="DBImageField" syncable="YES"/>
+        <relationship name="textFieldsTrans" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="DBTextField" inverseName="transcript" inverseEntity="DBTextField" syncable="YES"/>
+        <relationship name="textViewsTrans" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="DBTextView" inverseName="transcript" inverseEntity="DBTextView" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DBCertificate" positionX="-7209" positionY="-594" width="128" height="255"/>
+        <element name="DBImageField" positionX="-6959" positionY="-726" width="128" height="165"/>
+        <element name="DBTextField" positionX="-6948" positionY="-459" width="128" height="238"/>
+        <element name="DBTextView" positionX="-7182" positionY="-297" width="128" height="238"/>
+        <element name="DBTranscript" positionX="-6761" positionY="-639" width="128" height="255"/>
+    </elements>
+</model>
