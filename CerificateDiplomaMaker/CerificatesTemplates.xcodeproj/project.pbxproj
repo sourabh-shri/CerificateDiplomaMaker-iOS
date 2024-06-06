@@ -340,6 +340,8 @@
 		5F8AED701E30ECFC008F3A96 /* Tsignature2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8AED661E30ECFC008F3A96 /* Tsignature2.png */; };
 		5F8AED711E30ECFC008F3A96 /* Tsignature3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8AED671E30ECFC008F3A96 /* Tsignature3.png */; };
 		AF194C1B788F57D5788491D3 /* Pods_Diploma_FREE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B3CD975EC78E7C0BE72A76 /* Pods_Diploma_FREE.framework */; };
+		B22C414A2C11E9BD00AB0365 /* CustomYearLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22C41492C11E9BD00AB0365 /* CustomYearLabel.swift */; };
+		B22C414B2C11E9BD00AB0365 /* CustomYearLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22C41492C11E9BD00AB0365 /* CustomYearLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -522,6 +524,7 @@
 		75B3CD975EC78E7C0BE72A76 /* Pods_Diploma_FREE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diploma_FREE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C002003251A515B4F6C07F /* Pods-Diploma-FREE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diploma-FREE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diploma-FREE/Pods-Diploma-FREE.debug.xcconfig"; sourceTree = "<group>"; };
 		A48917D0EE0464A10F450991 /* Pods-Diploma-FREE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diploma-FREE.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diploma-FREE/Pods-Diploma-FREE.release.xcconfig"; sourceTree = "<group>"; };
+		B22C41492C11E9BD00AB0365 /* CustomYearLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomYearLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -762,6 +765,7 @@
 				083FD5071DF1429100326E36 /* CustomTextView.swift */,
 				08D7E91D1E0257CA00D4B12D /* CustomizingView.swift */,
 				08D7E9201E0257E300D4B12D /* CustomizingView.xib */,
+				B22C41492C11E9BD00AB0365 /* CustomYearLabel.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1363,6 +1367,7 @@
 			files = (
 				08DCCA071DE8555900B0C39A /* RoundButton.swift in Sources */,
 				1808F9D21E40CD4900D18E90 /* DBCertificate+CoreDataClass.swift in Sources */,
+				B22C414A2C11E9BD00AB0365 /* CustomYearLabel.swift in Sources */,
 				1808F9CA1E40CD4900D18E90 /* DBTextView+CoreDataClass.swift in Sources */,
 				1808F9D41E40CD4900D18E90 /* DBCertificate+CoreDataProperties.swift in Sources */,
 				081424A71DE550C4005E0EE9 /* AutoLoaderImageView.m in Sources */,
@@ -1414,6 +1419,7 @@
 			files = (
 				18243CBC1DE91DAE00ADACB2 /* RoundButton.swift in Sources */,
 				1808F9D31E40CD4900D18E90 /* DBCertificate+CoreDataClass.swift in Sources */,
+				B22C414B2C11E9BD00AB0365 /* CustomYearLabel.swift in Sources */,
 				1808F9CB1E40CD4900D18E90 /* DBTextView+CoreDataClass.swift in Sources */,
 				1808F9D51E40CD4900D18E90 /* DBCertificate+CoreDataProperties.swift in Sources */,
 				1852BB861DE7FC9C00479565 /* AutoLoaderImageView.m in Sources */,
