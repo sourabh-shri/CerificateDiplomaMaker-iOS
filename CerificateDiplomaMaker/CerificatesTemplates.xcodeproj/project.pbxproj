@@ -1577,7 +1577,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A0C002003251A515B4F6C07F /* Pods-Diploma-FREE.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "DiplomaFree-AppIcon";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = R5VLDQ4K6E;
@@ -1599,7 +1599,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A48917D0EE0464A10F450991 /* Pods-Diploma-FREE.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "DiplomaFree-AppIcon";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = R5VLDQ4K6E;
 				ENABLE_BITCODE = YES;
@@ -1620,10 +1620,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2F8EC38A90ED885065B9E424 /* Pods-Diploma-PRO.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "DiplomaPro-AppIcon";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = R5VLDQ4K6E;
 				ENABLE_BITCODE = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
@@ -1645,10 +1646,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 56936CBC9DE8E5BBD119EC90 /* Pods-Diploma-PRO.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "DiplomaPro-AppIcon";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = R5VLDQ4K6E;
 				ENABLE_BITCODE = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
