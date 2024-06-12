@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class ViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
@@ -15,7 +16,6 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
     var thumbImgArray :NSMutableArray = []
     var selectedTempDict = NSDictionary()
     var image : UIImage!
-    
     @IBOutlet weak var activityIndecator: UIActivityIndicatorView!
     @IBOutlet weak var thumbImgCollectionView: UICollectionView!
     
@@ -24,16 +24,12 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
         activityIndecator.isHidden = false
         activityIndecator.startAnimating()
         setUpJsonFile()
-
         let backItem = UIBarButtonItem(image:UIImage(named: "nav_back.png"), landscapeImagePhone: UIImage(named: "nav_back.png"), style: .plain, target: self, action: #selector(ViewController.Cancel))
         navigationItem.leftBarButtonItem = backItem
         navigationItem.title = "Templates"
+        GoogleAdClass.shared.showAd(controller: self.navigationController!)
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        
-    }
-    
+  
     @objc func Cancel(){
 //        navigationController?.popToRootViewController(animated: true)
         _ = navigationController?.popViewController(animated: true)
@@ -161,14 +157,16 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
             self.navigationController?.pushViewController(editCertVC, animated: true)
         }else {
             // Check if Pro version
-            if Context.getInstance().isProVersion() == false {
-                
-                (UIApplication.shared.delegate as! AppDelegate).showUpgradePopup(viewController: self)
-
-            }
-            else {
-                self.navigationController?.pushViewController(editCertVC, animated: true)
-            }
+//            if Context.getInstance().isProVersion() == false {
+//                
+//                (UIApplication.shared.delegate as! AppDelegate).showUpgradePopup(viewController: self)
+//
+//            }
+//            else {
+//                self.navigationController?.pushViewController(editCertVC, animated: true)
+//            }
+            
+            self.navigationController?.pushViewController(editCertVC, animated: true)
 
         }
         

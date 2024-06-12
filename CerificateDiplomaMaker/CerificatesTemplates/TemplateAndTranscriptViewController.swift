@@ -19,6 +19,8 @@ class TemplateAndTranscriptViewController: UIViewController {
         let backItem = UIBarButtonItem(image:UIImage(named: "nav_back.png"), landscapeImagePhone: UIImage(named: "nav_back.png"), style: .plain, target: self, action: #selector(TemplateAndTranscriptViewController.Cancel))
         
         navigationItem.leftBarButtonItem = backItem
+        GoogleAdClass.shared.addGoogleAd()
+
     }
 
     override func didReceiveMemoryWarning() {

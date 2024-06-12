@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleMobileAds
 import CoreData
 import Photos
 
@@ -29,7 +30,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Context.getInstance().setValue(Context.getInstance().getAppReviewURL(forAppId: "1179092372"), forKey: APP_REVIEW_URL_KEY)
     
 #endif
-        
+        // Google ad 
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
+
+
         // Fetch Data from Certificate
         let fetchRequest3: NSFetchRequest<DBImageField> = DBImageField.fetchRequest()
         // Edit the entity name as appropriate.

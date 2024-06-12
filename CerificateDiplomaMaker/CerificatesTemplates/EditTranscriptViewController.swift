@@ -1478,6 +1478,7 @@ class EditTranscriptViewController: UIViewController,UITableViewDelegate,UITable
         NSLog("key is \(key)")
         NSLog("key is \(text)")
         let tf = storeTextFInstance[key] as! UITextField
+        print(storeTextFInstance)
         tf.text = text
         NSLog("key is \(tf.text)")
         if tf.text == "" {

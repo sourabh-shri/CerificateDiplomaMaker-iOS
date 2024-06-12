@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JQY-o3-FpD">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -180,7 +181,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VZy-TR-iro" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1227.536231884058" y="-1224.4565217391305"/>
+            <point key="canvasLocation" x="1341" y="-1225"/>
         </scene>
         <!--Purchase View Controller-->
         <scene sceneID="lFJ-34-OLX">
@@ -1314,10 +1315,10 @@
                             <constraint firstItem="Aah-yr-9nW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="QwR-O7-uUf"/>
                             <constraint firstItem="ORa-09-zBX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="SVq-yh-99P"/>
                             <constraint firstItem="Aah-yr-9nW" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20" id="Tv7-Kz-AMA"/>
+                            <constraint firstItem="Aah-yr-9nW" firstAttribute="top" secondItem="PsC-gM-DL9" secondAttribute="top" id="fQz-Qu-ujP"/>
                             <constraint firstItem="ORa-09-zBX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="md0-Lb-aVU"/>
                             <constraint firstItem="PsC-gM-DL9" firstAttribute="bottom" secondItem="Aah-yr-9nW" secondAttribute="bottom" id="rQD-vc-k2K"/>
                             <constraint firstAttribute="bottom" secondItem="ORa-09-zBX" secondAttribute="bottom" id="wCK-A3-b2U"/>
-                            <constraint firstItem="Aah-yr-9nW" firstAttribute="top" secondItem="PsC-gM-DL9" secondAttribute="top" id="wx9-Hm-ILs"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="sFo-aA-nNp"/>
@@ -1383,12 +1384,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="toL-Xy-eO5" kind="relationship" relationship="rootViewController" id="lnU-UX-PHu"/>
+                        <segue destination="2Cj-td-7Y3" kind="relationship" relationship="rootViewController" id="Nsl-Ef-dAZ"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nNg-Vs-Dl2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="456.52173913043481" y="-1224.4565217391305"/>
+            <point key="canvasLocation" x="-144" y="-1225"/>
         </scene>
         <!--Create Diploma-->
         <scene sceneID="JTM-ZQ-jHU">
@@ -1723,10 +1724,10 @@
                         <viewLayoutGuide key="safeArea" id="UoH-9H-Q3Q"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="d6G-JV-TpV" firstAttribute="top" secondItem="UoH-9H-Q3Q" secondAttribute="top" id="83O-9e-v6z"/>
                             <constraint firstAttribute="bottom" secondItem="8aT-qM-66S" secondAttribute="bottom" id="Jzp-8m-chn"/>
                             <constraint firstItem="d6G-JV-TpV" firstAttribute="leading" secondItem="JJB-eq-owB" secondAttribute="leadingMargin" constant="-20" id="SDr-5P-TpQ"/>
                             <constraint firstItem="8aT-qM-66S" firstAttribute="top" secondItem="JJB-eq-owB" secondAttribute="top" id="Uox-yI-DJ9"/>
-                            <constraint firstItem="d6G-JV-TpV" firstAttribute="top" secondItem="UoH-9H-Q3Q" secondAttribute="top" id="aKK-Le-JQM"/>
                             <constraint firstItem="UoH-9H-Q3Q" firstAttribute="bottom" secondItem="d6G-JV-TpV" secondAttribute="bottom" id="czw-kk-1iA"/>
                             <constraint firstItem="8aT-qM-66S" firstAttribute="leading" secondItem="JJB-eq-owB" secondAttribute="leading" id="fCq-Qy-W1u"/>
                             <constraint firstItem="d6G-JV-TpV" firstAttribute="trailing" secondItem="JJB-eq-owB" secondAttribute="trailingMargin" constant="20" id="hTk-g6-d8R"/>
@@ -1740,7 +1741,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3d-Tm-DQ7" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3876" y="-2261.9190404797605"/>
+            <point key="canvasLocation" x="3875.5725190839694" y="-2261.9718309859154"/>
         </scene>
         <!--Transcript Table View Controller-->
         <scene sceneID="Df1-po-ByO">
@@ -1886,6 +1887,63 @@
             </objects>
             <point key="canvasLocation" x="5220" y="-1808.75"/>
         </scene>
+        <!--Splash View Controller-->
+        <scene sceneID="3y3-jQ-deD">
+            <objects>
+                <viewController id="2Cj-td-7Y3" customClass="SplashViewController" customModule="Diploma" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ieb-6u-Lou">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_BgNew" translatesAutoresizingMaskIntoConstraints="NO" id="Q3L-2K-jBa">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ChristApp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7b-Gg-iEH">
+                                <rect key="frame" x="127.00000000000001" y="762.33333333333337" width="139.33333333333337" height="15.666666666666629"/>
+                                <fontDescription key="fontDescription" name="Arkitech-Light" family="Arkitech Light" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Arkitech-Light" family="Arkitech Light" pointSize="47"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLO-he-lae" userLabel="© 2018" customClass="CustomYearLabel" customModule="Diploma" customModuleProvider="target">
+                                <rect key="frame" x="171.33333333333334" y="783" width="50.666666666666657" height="9"/>
+                                <fontDescription key="fontDescription" name="Arkitech-Light" family="Arkitech Light" pointSize="10"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Arkitech-Light" family="Arkitech Light" pointSize="20"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8fs-lB-HhA"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="c7b-Gg-iEH" firstAttribute="centerX" secondItem="8fs-lB-HhA" secondAttribute="centerX" id="BVT-GE-2TH"/>
+                            <constraint firstAttribute="bottom" secondItem="Q3L-2K-jBa" secondAttribute="bottom" id="Eff-8j-opt"/>
+                            <constraint firstItem="aLO-he-lae" firstAttribute="top" secondItem="c7b-Gg-iEH" secondAttribute="bottom" constant="5" id="Y1Y-bU-z5N"/>
+                            <constraint firstItem="Q3L-2K-jBa" firstAttribute="leading" secondItem="Ieb-6u-Lou" secondAttribute="leading" id="fb4-gN-HdG"/>
+                            <constraint firstItem="8fs-lB-HhA" firstAttribute="bottom" secondItem="c7b-Gg-iEH" secondAttribute="bottom" constant="40" id="orv-4r-p39">
+                                <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                            </constraint>
+                            <constraint firstItem="aLO-he-lae" firstAttribute="centerX" secondItem="8fs-lB-HhA" secondAttribute="centerX" id="tNH-fu-B8d"/>
+                            <constraint firstAttribute="trailing" secondItem="Q3L-2K-jBa" secondAttribute="trailing" id="wPx-60-RBx"/>
+                            <constraint firstItem="Q3L-2K-jBa" firstAttribute="top" secondItem="Ieb-6u-Lou" secondAttribute="top" id="zl5-3a-9uA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Oz9-9L-zLM"/>
+                    <connections>
+                        <segue destination="toL-Xy-eO5" kind="show" identifier="StartApp" animates="NO" id="ceh-X1-QrA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dfd-gh-p7N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="543" y="-1225"/>
+        </scene>
     </scenes>
     <designables>
         <designable name="hwu-yy-qnb">
@@ -1899,7 +1957,7 @@
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="fNV-oO-JBJ"/>
+        <segue reference="jng-qJ-9bj"/>
         <segue reference="Y5Y-tD-M91"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1918,6 +1976,7 @@
         <image name="hs_SaveDiploma" width="62.5" height="63.5"/>
         <image name="hs_navDel" width="12.5" height="18.5"/>
         <image name="hs_rateApp" width="64" height="64.5"/>
+        <image name="splash_BgNew" width="1024" height="1366"/>
         <image name="template" width="63" height="64"/>
         <image name="transcript" width="62.5" height="63.5"/>
     </resources>

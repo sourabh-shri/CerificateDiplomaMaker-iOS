@@ -132,7 +132,6 @@ class EditCertificateViewController: UIViewController,UIScrollViewDelegate,UITex
                 
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
-        
     }
     
     @objc func keyboardWillShow(notification: NSNotification) {
@@ -404,7 +403,7 @@ class EditCertificateViewController: UIViewController,UIScrollViewDelegate,UITex
         
         hideKeyboard()
         // Check if Pro version
-        if Context.getInstance().isProVersion() == false {
+      if Context.getInstance().isProVersion() == false {
             // Fetch Data from Certificate
             let fetchRequest2: NSFetchRequest<DBCertificate> = DBCertificate.fetchRequest()
             // Edit the entity name as appropriate.
@@ -417,12 +416,13 @@ class EditCertificateViewController: UIViewController,UIScrollViewDelegate,UITex
             } catch{
                 print(error.localizedDescription)
             }
-            if certCount > Int(MAX_ALLOWED_CERTS_IN_FREE_VERSION) {
-                (UIApplication.shared.delegate as! AppDelegate).showUpgradePopup(viewController: self)
+        if certCount > Int(MAX_ALLOWED_CERTS_IN_FREE_VERSION) {
+             //   (UIApplication.shared.delegate as! AppDelegate).showUpgradePopup(viewController: self)
             
-                return
-            }
-        }
+             //   return
+         }
+    }
+        print("aasasa")
         
         let defaults = UserDefaults.standard
         defaults.set("Certificate", forKey: "Name")
@@ -529,7 +529,7 @@ class EditCertificateViewController: UIViewController,UIScrollViewDelegate,UITex
     
     func storeCertificateDatatoDB(_ cert: DBCertificate) {
         let newCertificateObject = cert
-        
+        print(newCertificateObject)
         newCertificateObject.setValue(Date(), forKey: "dateCreated")
         newCertificateObject.setValue(selectedTemplateData.value(forKey: "templateId"), forKey: "templateId")
         newCertificateObject.setValue(selectedTemplateData.value(forKey: "organization"), forKey: "organization")

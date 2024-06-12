@@ -20,6 +20,9 @@ class HomeViewController: UIViewController {
         
       /*  let urlString = "http://54.213.28.200/diploma/diploma_templates.json"
         setUpJsonFile(urlString as NSString) */
+        
+        self.navigationController?.navigationBar.topItem?.hidesBackButton = true
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {

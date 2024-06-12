@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class TranscriptViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
 
@@ -23,11 +24,10 @@ class TranscriptViewController: UIViewController,UICollectionViewDelegate,UIColl
         let backItem = UIBarButtonItem(image:UIImage(named: "nav_back.png"), landscapeImagePhone: UIImage(named: "nav_back.png"), style: .plain, target: self, action: #selector(TranscriptViewController.Cancel))
         navigationItem.leftBarButtonItem = backItem
         navigationItem.title = "Transcripts"
-
         setUpJsonFile()
-
+        GoogleAdClass.shared.showAd(controller: self.navigationController!)
     }
-
+ 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -50,7 +50,6 @@ class TranscriptViewController: UIViewController,UICollectionViewDelegate,UIColl
             }
         }
     }
-    
     
     func parseDataFromJsonFile(_ data:Data) {
         var json: AnyObject?
@@ -152,14 +151,14 @@ class TranscriptViewController: UIViewController,UICollectionViewDelegate,UIColl
             self.navigationController?.pushViewController(editTranscriptVC, animated: true)
         }else {
             // Check if Pro version
-            if Context.getInstance().isProVersion() == false {
+            //if Context.getInstance().isProVersion() == false {
                 
-                (UIApplication.shared.delegate as! AppDelegate).showUpgradePopup(viewController: self)
+              //  (UIApplication.shared.delegate as! AppDelegate).showUpgradePopup(viewController: self)
                 
-            }
-            else {
+         //   }
+         //   else {
                 self.navigationController?.pushViewController(editTranscriptVC, animated: true)
-            }
+           // }
         }
     }
 }

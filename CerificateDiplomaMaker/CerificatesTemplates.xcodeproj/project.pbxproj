@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -164,6 +164,7 @@
 		08FB5CA81E054184009F7A21 /* Corbel Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08FB5CA71E054184009F7A21 /* Corbel Bold.ttf */; };
 		08FB5CAA1E0541DE009F7A21 /* Corbel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08FB5CA91E0541DE009F7A21 /* Corbel.ttf */; };
 		08FDFABC1DDC7403004EEA28 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FDFABB1DDC7403004EEA28 /* HomeViewController.swift */; };
+		159406CA6A82249B84E59283 /* Pods_Diploma_PRO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC2D4EA39CE5A6DDEA41082 /* Pods_Diploma_PRO.framework */; };
 		1801760D1E31C32D00283C69 /* markThumb1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1801760C1E31C32D00283C69 /* markThumb1.png */; };
 		1801760E1E31C32D00283C69 /* markThumb1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1801760C1E31C32D00283C69 /* markThumb1.png */; };
 		1808F9B51E40BA6C00D18E90 /* cert7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1808F9B41E40BA6C00D18E90 /* cert7.png */; };
@@ -327,7 +328,7 @@
 		18AE29F21DE8116900FC872F /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE29F01DE8116400FC872F /* PurchaseViewController.swift */; };
 		18DB044A1DE807AD0098A26C /* Arkitech Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18DB04481DE807AD0098A26C /* Arkitech Light.ttf */; };
 		18DB044B1DE807AD0098A26C /* Arkitech Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18DB04491DE807AD0098A26C /* Arkitech Medium.ttf */; };
-		538C7DE1BAF47EEEB2DAEF6C /* Pods_Diploma_PRO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720A3521CEACD8598A91893F /* Pods_Diploma_PRO.framework */; };
+		29A7D03520A4116B3439F3DB /* Pods_Diploma_FREE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035DA5B0CC1DA9F8D72F7643 /* Pods_Diploma_FREE.framework */; };
 		5F240EAE1E0551D80059CC90 /* diploma.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F240EAD1E0551D80059CC90 /* diploma.ttf */; };
 		5F8AED681E30ECFC008F3A96 /* barcode2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8AED5E1E30ECFC008F3A96 /* barcode2.png */; };
 		5F8AED691E30ECFC008F3A96 /* barcode3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8AED5F1E30ECFC008F3A96 /* barcode3.png */; };
@@ -339,12 +340,18 @@
 		5F8AED6F1E30ECFC008F3A96 /* Tlogo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8AED651E30ECFC008F3A96 /* Tlogo3.png */; };
 		5F8AED701E30ECFC008F3A96 /* Tsignature2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8AED661E30ECFC008F3A96 /* Tsignature2.png */; };
 		5F8AED711E30ECFC008F3A96 /* Tsignature3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F8AED671E30ECFC008F3A96 /* Tsignature3.png */; };
-		AF194C1B788F57D5788491D3 /* Pods_Diploma_FREE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B3CD975EC78E7C0BE72A76 /* Pods_Diploma_FREE.framework */; };
 		B22C414A2C11E9BD00AB0365 /* CustomYearLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22C41492C11E9BD00AB0365 /* CustomYearLabel.swift */; };
 		B22C414B2C11E9BD00AB0365 /* CustomYearLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22C41492C11E9BD00AB0365 /* CustomYearLabel.swift */; };
+		B27484982C133239002F97AB /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27484972C133239002F97AB /* GoogleMobileAds.xcframework */; };
+		B27484992C133248002F97AB /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27484972C133239002F97AB /* GoogleMobileAds.xcframework */; };
+		B274849B2C133D4B002F97AB /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274849A2C133D4B002F97AB /* SplashViewController.swift */; };
+		B274849C2C133D4C002F97AB /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274849A2C133D4B002F97AB /* SplashViewController.swift */; };
+		B274849E2C134592002F97AB /* GoogleAdClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274849D2C134592002F97AB /* GoogleAdClass.swift */; };
+		B274849F2C134592002F97AB /* GoogleAdClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B274849D2C134592002F97AB /* GoogleAdClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		035DA5B0CC1DA9F8D72F7643 /* Pods_Diploma_FREE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diploma_FREE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0807956C1DCAE52C000A8C38 /* PopUpVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpVIew.swift; sourceTree = "<group>"; };
 		081424A41DE550C3005E0EE9 /* CerificatesTemplates-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CerificatesTemplates-Bridging-Header.h"; sourceTree = "<group>"; };
 		081424A51DE550C4005E0EE9 /* AutoLoaderImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLoaderImageView.h; sourceTree = "<group>"; };
@@ -484,6 +491,7 @@
 		08FB5CA71E054184009F7A21 /* Corbel Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Corbel Bold.ttf"; sourceTree = "<group>"; };
 		08FB5CA91E0541DE009F7A21 /* Corbel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Corbel.ttf; sourceTree = "<group>"; };
 		08FDFABB1DDC7403004EEA28 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		17E6750203F7A1F99D41CECD /* Pods-Diploma-PRO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diploma-PRO.debug.xcconfig"; path = "Target Support Files/Pods-Diploma-PRO/Pods-Diploma-PRO.debug.xcconfig"; sourceTree = "<group>"; };
 		1801760C1E31C32D00283C69 /* markThumb1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = markThumb1.png; sourceTree = "<group>"; };
 		1808F9B41E40BA6C00D18E90 /* cert7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cert7.png; sourceTree = "<group>"; };
 		1808F9BC1E40CD4900D18E90 /* DBImageField+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DBImageField+CoreDataClass.swift"; path = "CerificatesTemplates/Model/DBImageField+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -507,8 +515,6 @@
 		18DB043D1DE7FE2B0098A26C /* DiplomaPro-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DiplomaPro-Info.plist"; sourceTree = "<group>"; };
 		18DB04481DE807AD0098A26C /* Arkitech Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arkitech Light.ttf"; sourceTree = "<group>"; };
 		18DB04491DE807AD0098A26C /* Arkitech Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arkitech Medium.ttf"; sourceTree = "<group>"; };
-		2F8EC38A90ED885065B9E424 /* Pods-Diploma-PRO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diploma-PRO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diploma-PRO/Pods-Diploma-PRO.debug.xcconfig"; sourceTree = "<group>"; };
-		56936CBC9DE8E5BBD119EC90 /* Pods-Diploma-PRO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diploma-PRO.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diploma-PRO/Pods-Diploma-PRO.release.xcconfig"; sourceTree = "<group>"; };
 		5F240EAD1E0551D80059CC90 /* diploma.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = diploma.ttf; sourceTree = "<group>"; };
 		5F8AED5E1E30ECFC008F3A96 /* barcode2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode2.png; sourceTree = "<group>"; };
 		5F8AED5F1E30ECFC008F3A96 /* barcode3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode3.png; sourceTree = "<group>"; };
@@ -520,11 +526,14 @@
 		5F8AED651E30ECFC008F3A96 /* Tlogo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tlogo3.png; sourceTree = "<group>"; };
 		5F8AED661E30ECFC008F3A96 /* Tsignature2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tsignature2.png; sourceTree = "<group>"; };
 		5F8AED671E30ECFC008F3A96 /* Tsignature3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tsignature3.png; sourceTree = "<group>"; };
-		720A3521CEACD8598A91893F /* Pods_Diploma_PRO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diploma_PRO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		75B3CD975EC78E7C0BE72A76 /* Pods_Diploma_FREE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diploma_FREE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0C002003251A515B4F6C07F /* Pods-Diploma-FREE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diploma-FREE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diploma-FREE/Pods-Diploma-FREE.debug.xcconfig"; sourceTree = "<group>"; };
-		A48917D0EE0464A10F450991 /* Pods-Diploma-FREE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diploma-FREE.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diploma-FREE/Pods-Diploma-FREE.release.xcconfig"; sourceTree = "<group>"; };
+		6CC2D4EA39CE5A6DDEA41082 /* Pods_Diploma_PRO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diploma_PRO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE40A69B2120842D7E16C0A6 /* Pods-Diploma-PRO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diploma-PRO.release.xcconfig"; path = "Target Support Files/Pods-Diploma-PRO/Pods-Diploma-PRO.release.xcconfig"; sourceTree = "<group>"; };
 		B22C41492C11E9BD00AB0365 /* CustomYearLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomYearLabel.swift; sourceTree = "<group>"; };
+		B27484972C133239002F97AB /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = "Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.xcframework"; sourceTree = "<group>"; };
+		B274849A2C133D4B002F97AB /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		B274849D2C134592002F97AB /* GoogleAdClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAdClass.swift; sourceTree = "<group>"; };
+		C10E90B725FCA290838AF2F8 /* Pods-Diploma-FREE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diploma-FREE.release.xcconfig"; path = "Target Support Files/Pods-Diploma-FREE/Pods-Diploma-FREE.release.xcconfig"; sourceTree = "<group>"; };
+		E652B1FE0E47D222482BFC55 /* Pods-Diploma-FREE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diploma-FREE.debug.xcconfig"; path = "Target Support Files/Pods-Diploma-FREE/Pods-Diploma-FREE.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -532,8 +541,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF194C1B788F57D5788491D3 /* Pods_Diploma_FREE.framework in Frameworks */,
+				B27484982C133239002F97AB /* GoogleMobileAds.xcframework in Frameworks */,
 				18AE29E91DE80CC300FC872F /* StoreKit.framework in Frameworks */,
+				29A7D03520A4116B3439F3DB /* Pods_Diploma_FREE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,8 +551,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				538C7DE1BAF47EEEB2DAEF6C /* Pods_Diploma_PRO.framework in Frameworks */,
+				B27484992C133248002F97AB /* GoogleMobileAds.xcframework in Frameworks */,
 				18AE29E81DE80CBA00FC872F /* StoreKit.framework in Frameworks */,
+				159406CA6A82249B84E59283 /* Pods_Diploma_PRO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,8 +631,8 @@
 			children = (
 				082819731DC8758E0087B785 /* CerificatesTemplates */,
 				082819721DC8758E0087B785 /* Products */,
-				DA4FB5B403F653FCAA6A56AA /* Pods */,
 				B82255117504776BFBB91DEC /* Frameworks */,
+				78FB08C452C097411E673711 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -784,6 +795,8 @@
 				08A26CC21E1B59A5005792B1 /* TranscriptViewController.swift */,
 				08A26CC81E1B6A9B005792B1 /* EditTranscriptViewController.swift */,
 				0876E2AF1E1E4F3400E833B0 /* TranscriptTableViewController.swift */,
+				B274849A2C133D4B002F97AB /* SplashViewController.swift */,
+				B274849D2C134592002F97AB /* GoogleAdClass.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -867,25 +880,26 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		78FB08C452C097411E673711 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E652B1FE0E47D222482BFC55 /* Pods-Diploma-FREE.debug.xcconfig */,
+				C10E90B725FCA290838AF2F8 /* Pods-Diploma-FREE.release.xcconfig */,
+				17E6750203F7A1F99D41CECD /* Pods-Diploma-PRO.debug.xcconfig */,
+				AE40A69B2120842D7E16C0A6 /* Pods-Diploma-PRO.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B82255117504776BFBB91DEC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B27484972C133239002F97AB /* GoogleMobileAds.xcframework */,
 				18AE29E71DE80CBA00FC872F /* StoreKit.framework */,
-				75B3CD975EC78E7C0BE72A76 /* Pods_Diploma_FREE.framework */,
-				720A3521CEACD8598A91893F /* Pods_Diploma_PRO.framework */,
+				035DA5B0CC1DA9F8D72F7643 /* Pods_Diploma_FREE.framework */,
+				6CC2D4EA39CE5A6DDEA41082 /* Pods_Diploma_PRO.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DA4FB5B403F653FCAA6A56AA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A0C002003251A515B4F6C07F /* Pods-Diploma-FREE.debug.xcconfig */,
-				A48917D0EE0464A10F450991 /* Pods-Diploma-FREE.release.xcconfig */,
-				2F8EC38A90ED885065B9E424 /* Pods-Diploma-PRO.debug.xcconfig */,
-				56936CBC9DE8E5BBD119EC90 /* Pods-Diploma-PRO.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -895,13 +909,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 082819831DC8758E0087B785 /* Build configuration list for PBXNativeTarget "Diploma-FREE" */;
 			buildPhases = (
-				5EE9B2397DCD6E3996C5C171 /* [CP] Check Pods Manifest.lock */,
+				8CF19259ED64F01B3D340E93 /* [CP] Check Pods Manifest.lock */,
 				0828196D1DC8758E0087B785 /* Sources */,
 				0828196E1DC8758E0087B785 /* Frameworks */,
 				0828196F1DC8758E0087B785 /* Resources */,
-				6253E6B510F1F102624F5B03 /* [CP] Embed Pods Frameworks */,
-				F64C42138E1EDF63D5273E29 /* [CP] Copy Pods Resources */,
 				18AE29E21DE80B4E00FC872F /* ShellScript */,
+				9E59F923B428B15EB920E7CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -916,13 +929,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1852BBC41DE7FC9C00479565 /* Build configuration list for PBXNativeTarget "Diploma-PRO" */;
 			buildPhases = (
-				803EEDB62C0A83474962D2D9 /* [CP] Check Pods Manifest.lock */,
+				4278CA416528FA1F6ECBCDDE /* [CP] Check Pods Manifest.lock */,
 				1852BB851DE7FC9C00479565 /* Sources */,
 				1852BBA11DE7FC9C00479565 /* Frameworks */,
 				1852BBA21DE7FC9C00479565 /* Resources */,
-				5FBA46FC4F233DFF4FF924A8 /* [CP] Embed Pods Frameworks */,
-				128A54454571388C86B1FEE9 /* [CP] Copy Pods Resources */,
 				18AE29E31DE80B7A00FC872F /* ShellScript */,
+				1D4E74DA38AC3A156E8B3E3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1242,21 +1254,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		128A54454571388C86B1FEE9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diploma-PRO/Pods-Diploma-PRO-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		18AE29E21DE80B4E00FC872F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1283,79 +1280,92 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" 31e20beefe083565022000d7d0fe68ec88476517 375221d698617028b500ee2bde95779602f3dcf2bac1cecb239efc39dcba71ea";
 		};
-		5EE9B2397DCD6E3996C5C171 /* [CP] Check Pods Manifest.lock */ = {
+		1D4E74DA38AC3A156E8B3E3B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5FBA46FC4F233DFF4FF924A8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Diploma-PRO/Pods-Diploma-PRO-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-iOS9.2/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC-iOS9.2/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb-iOS9.2/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diploma-PRO/Pods-Diploma-PRO-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Diploma-PRO/Pods-Diploma-PRO-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6253E6B510F1F102624F5B03 /* [CP] Embed Pods Frameworks */ = {
+		4278CA416528FA1F6ECBCDDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Diploma-PRO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CF19259ED64F01B3D340E93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Diploma-FREE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E59F923B428B15EB920E7CB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Diploma-FREE/Pods-Diploma-FREE-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-iOS9.3/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC-iOS9.3/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb-iOS9.3/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diploma-FREE/Pods-Diploma-FREE-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		803EEDB62C0A83474962D2D9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F64C42138E1EDF63D5273E29 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diploma-FREE/Pods-Diploma-FREE-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Diploma-FREE/Pods-Diploma-FREE-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1370,6 +1380,7 @@
 				B22C414A2C11E9BD00AB0365 /* CustomYearLabel.swift in Sources */,
 				1808F9CA1E40CD4900D18E90 /* DBTextView+CoreDataClass.swift in Sources */,
 				1808F9D41E40CD4900D18E90 /* DBCertificate+CoreDataProperties.swift in Sources */,
+				B274849B2C133D4B002F97AB /* SplashViewController.swift in Sources */,
 				081424A71DE550C4005E0EE9 /* AutoLoaderImageView.m in Sources */,
 				08D1509B1DCC5C7500B70B4F /* ColorConverter.swift in Sources */,
 				08C4DB611DD19FED0052181E /* TemplatesDataModel.xcdatamodeld in Sources */,
@@ -1381,6 +1392,7 @@
 				0807956D1DCAE52C000A8C38 /* PopUpVIew.swift in Sources */,
 				1808F9D01E40CD4900D18E90 /* DBTranscript+CoreDataProperties.swift in Sources */,
 				1808F9C61E40CD4900D18E90 /* DBImageField+CoreDataClass.swift in Sources */,
+				B274849E2C134592002F97AB /* GoogleAdClass.swift in Sources */,
 				082819771DC8758E0087B785 /* ViewController.swift in Sources */,
 				1808F9CE1E40CD4900D18E90 /* DBTranscript+CoreDataClass.swift in Sources */,
 				18AE29EC1DE80CDF00FC872F /* IAPHelper.swift in Sources */,
@@ -1422,6 +1434,7 @@
 				B22C414B2C11E9BD00AB0365 /* CustomYearLabel.swift in Sources */,
 				1808F9CB1E40CD4900D18E90 /* DBTextView+CoreDataClass.swift in Sources */,
 				1808F9D51E40CD4900D18E90 /* DBCertificate+CoreDataProperties.swift in Sources */,
+				B274849C2C133D4C002F97AB /* SplashViewController.swift in Sources */,
 				1852BB861DE7FC9C00479565 /* AutoLoaderImageView.m in Sources */,
 				18116D701E0599BB006B5D25 /* CustomTextView.swift in Sources */,
 				1852BB881DE7FC9C00479565 /* ColorConverter.swift in Sources */,
@@ -1433,6 +1446,7 @@
 				1852BB8D1DE7FC9C00479565 /* TemplateVIewController.swift in Sources */,
 				1808F9D11E40CD4900D18E90 /* DBTranscript+CoreDataProperties.swift in Sources */,
 				1808F9C71E40CD4900D18E90 /* DBImageField+CoreDataClass.swift in Sources */,
+				B274849F2C134592002F97AB /* GoogleAdClass.swift in Sources */,
 				18116D6F1E05997A006B5D25 /* EditCertificateViewController.swift in Sources */,
 				1808F9CF1E40CD4900D18E90 /* DBTranscript+CoreDataClass.swift in Sources */,
 				1852BB8F1DE7FC9C00479565 /* PopUpVIew.swift in Sources */,
@@ -1568,14 +1582,15 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		082819841DC8758E0087B785 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0C002003251A515B4F6C07F /* Pods-Diploma-FREE.debug.xcconfig */;
+			baseConfigurationReference = E652B1FE0E47D222482BFC55 /* Pods-Diploma-FREE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1584,8 +1599,11 @@
 				ENABLE_BITCODE = YES;
 				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = "CerificatesTemplates/DiplomaFree-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.certificatemaker.diploma;
 				PRODUCT_NAME = Diploma;
 				SWIFT_OBJC_BRIDGING_HEADER = "CerificatesTemplates/CerificatesTemplates-Bridging-Header.h";
@@ -1597,7 +1615,7 @@
 		};
 		082819851DC8758E0087B785 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A48917D0EE0464A10F450991 /* Pods-Diploma-FREE.release.xcconfig */;
+			baseConfigurationReference = C10E90B725FCA290838AF2F8 /* Pods-Diploma-FREE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1605,8 +1623,11 @@
 				ENABLE_BITCODE = YES;
 				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = "CerificatesTemplates/DiplomaFree-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LINK_WITH_STANDARD_LIBRARIES = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.certificatemaker.diploma;
 				PRODUCT_NAME = Diploma;
@@ -1618,7 +1639,7 @@
 		};
 		1852BBC51DE7FC9C00479565 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F8EC38A90ED885065B9E424 /* Pods-Diploma-PRO.debug.xcconfig */;
+			baseConfigurationReference = 17E6750203F7A1F99D41CECD /* Pods-Diploma-PRO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1631,10 +1652,17 @@
 					"PAID_APP=1",
 				);
 				INFOPLIST_FILE = "CerificatesTemplates/DiplomaPro-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.christapp.diplomacertificatelite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "CerificatesTemplates/CerificatesTemplates-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1644,7 +1672,7 @@
 		};
 		1852BBC61DE7FC9C00479565 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56936CBC9DE8E5BBD119EC90 /* Pods-Diploma-PRO.release.xcconfig */;
+			baseConfigurationReference = AE40A69B2120842D7E16C0A6 /* Pods-Diploma-PRO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1657,10 +1685,17 @@
 					"PAID_APP=1",
 				);
 				INFOPLIST_FILE = "CerificatesTemplates/DiplomaPro-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.christapp.diplomacertificatelite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "CerificatesTemplates/CerificatesTemplates-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
